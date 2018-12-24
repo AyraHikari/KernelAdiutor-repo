@@ -17,6 +17,6 @@ How to add your kernel :-
 
 For example, edit `<your.json url file>` to like this `https://raw.githubusercontent.com/AyraHikari/KernelAdiutor-repo/master/yuka.json`
 
-5. After that, please pull request at this repo
+4. After that, please pull request at this repo
 
 Note: For update new kernel version, just update your.json on your git
