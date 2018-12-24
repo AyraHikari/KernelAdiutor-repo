@@ -1,0 +1,93 @@
+{
+	"name": "<b><font color=\"#FFFFFF\">Yuka Kernel</font></b>",
+	"short_description": "Based on LineageOS 15.1. For Treble ROM only",
+	"long_description": "Welcome to <b>Yuka Kernel</b> Stable, Optimized and Based on Lineage OS 15.1 kernel source.<br><a href=\"http://www.github.com/AyraHikari\">My Github Profile</a>",
+	"logo": "https://raw.githubusercontent.com/AyraHikari/Yuka_Kernel-Adiutor/master/Yuka-logo.png",
+	"xda": "https://forum.xda-developers.com/member.php?u=7879802",
+	"github": "https://github.com/AyraHikari",
+	"google_plus": "https://plus.google.com/u/2/107222941469487441790",
+	"features": [
+		"Latest Linux Kernel (Updated)",
+		"Compatibility all custom ROM [Android 7.1+]",
+		"CPU Overclock up to 1.80 Mhz",
+		"GPU Overclock up to 600 Mhz",
+		"EAS Support","Spectrum Support",
+		"LZ4","Adreno Idler",
+		"Advanced color control (KCAL)",
+		"Double Tap 2 Wake Feature (Incl. Vibration)",
+		"Swipe to Wake",
+		"CPU Voltage Control",
+		"CPU Boost",
+		"CPU Input Boost",
+		"Thermal Temperature Throttle",
+		"GPU Adreno Idler",
+		"KCAL Support",
+		"Implement Power Efficient Workqueues",
+		"USB Fast Charge",
+		"F2FS & EXFAT File System Support",
+		"Compiled using Clang 8.0.0",
+		{
+			"name": "CPU Governors",
+			"items": [
+				"interactive (default)",
+				"ondemand",
+				"userspace",
+				"powersave",
+				"performance",
+				"conservative",
+				"alucard",
+				"lionfish",
+				"cultivation",
+				"darkness",
+				"darknessv5",
+				"relaxed",
+				"chill",
+				"schedutil"
+			]
+		},
+		{
+			"name": "I/O Schedulers",
+			"items": [
+				"noop",
+				"deadline",
+				"fiops (default)",
+				"bfq",
+				"cfq",
+				"maple"
+			]
+		},
+		{
+			"name": "TCP Congestions",
+			"items":
+			[
+				"Westwood (Default)",
+				"reno",
+				"Cubic"
+			]
+		}
+	],
+	"downloads": [
+		{
+			"name": "Yuka Kernel 1.1.5",
+			"description": "For Nougat+ and Treble ROM Only",
+			"url": "https://excellmedia.dl.sourceforge.net/project/yukakernel/Land/Yuka-Treble-221218-1.1.5-land.zip",
+			"changelog": [
+				"Linux kernel upstreamed to v3.18.131",
+				"Added Yuka Kernel Settings App",
+				"Fixed kernel installer system push",
+				"Fixed init.d script",
+				"Minor bugs fixed",
+				""
+			]
+		},
+		{
+			"name": "Yuka Kernel 1.1.4",
+			"description": "For Nougat+ Only",
+			"url": "https://excellmedia.dl.sourceforge.net/project/yukakernel/Land/Yuka-Treble-181218-v1.1.4-land.zip",
+			"changelog": [
+				"Kernel upstreamed to v3.18.130",
+				"Prepared for OTA updates!"
+			]
+		}
+	]
+}
