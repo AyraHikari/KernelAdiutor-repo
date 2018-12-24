@@ -6,7 +6,7 @@ How to add your kernel :-
 
 2. Create a file, like yuka.json, and write like [this](https://github.com/AyraHikari/KernelAdiutor-repo/blob/master/yuka.json)
 
-3. Edit land.json, add your.json url like this:
+3. If you want to add new device, create a file codename.json (for example land.json). Or if you want to add kernel for exist file, just edit land.json. After that just add your.json url like this:
 
 ```
 [
